@@ -1,0 +1,277 @@
+.node-type-article .views-field-field-image {text-align: center;}
+
+.front .feature h2 {margin-top: 0;}
+.view-article-teasers .views-row {position: relative; display: block; float: left; margin: 0 7px 7px 0;}
+.view-article-teasers .views-field-nid {position: absolute; left: 0; bottom: 0; width: 96%; height: 40px; padding: 10px 2%; background: rgba(0,0,0,0.7); line-height: 20px; font-weight: 500;}
+
+.view-article-teasers .view-footer {padding: 10px 0 0; margin: 3px 0 0; border-top: 1px solid #ddd; float: left; width: 100%; }
+.view-article-teasers .view-footer p {font-size: 16px; line-height: 20px; margin: 0; font-weight: 500;}
+.view-article-teasers .view-footer i {margin: 0 7px 0 0;}
+
+.front .footer {border: none; padding: 0; margin: 0;}
+
+.footer .view-all-posts .views-row {border-bottom: 1px dashed #ddd; padding: 10px; background: #fff;}
+.footer .view-all-posts .views-row-first {border-top: 5px solid yellow;}
+
+.footer #block-views-all-posts-block-9 .view-all-posts .views-row-first {border-top: 5px solid #e9f6fc;}
+
+.footer .view-comments-recent ul {margin: 0; padding: 0;}
+.footer .view-comments-recent ul li {list-style-type: none;}
+.footer .view-comments-recent .views-field-comment-body:before {
+	content: open-quote;
+	font-family: "Arvo";
+	font-weight: bold;
+	font-size: 70px;
+	position: absolute; 
+	left: 3%;
+}
+.footer .view-comments-recent ul li {
+	padding: 1em 3% 1em 7%; 
+	background: #fff; 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	float: left; 
+	width: 90%;
+	margin: 0 0 10px;
+	font-size: 18px;
+	line-height: 24px;
+	position: relative;
+	border-bottom: 1px dashed #ddd;
+	border-top: 5px solid #e9f6fc;
+}
+.footer .view-comments-recent .views-field-comment-body p {	font-size: 18px; line-height: 24px;}
+.footer .view-comments-recent .views-field-name {float: left; margin: 0 10px 0 0;}
+
+.footer .copyright {padding: 20px 0; margin: 20px 0 0; border-top: 1px solid #ddd;}
+.footer .copyright p {font-size: 16px; line-height: 20px; font-weight: 500; margin: 0; padding: 0;}
+
+
+
+@media(min-width: 980px) {
+  body {
+
+  }
+}
+
+
+.navbar .logo { 
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+#site-name {
+  line-height: 1;
+  margin: 0;
+  color: #f5f5f5;
+}
+
+.submitted {
+  margin-bottom: 1em;
+  font-style: italic;
+  font-weight: normal;
+  color: #777;
+}
+
+.footer {
+  margin-top: 45px;
+  padding: 35px 0 36px;
+  border-top: 1px solid #E5E5E5;
+}
+
+ul.action-links {
+  margin-bottom: 2em;
+}
+
+ul.action-links li {
+  display: inline;
+  padding-right: 1.5em;
+}
+
+ul.action-links [class^="icon-"],
+ul.action-links [class*=" icon-"] {
+  padding-right: .5em;
+}
+
+/**
+ * Admin Styling
+ */
+
+/* Fix Toolbar for .navbar-fixed-top */
+body.toolbar .navbar-fixed-top {
+ top: 30px;
+}
+
+body.toolbar-drawer .navbar-fixed-top {
+ top: 65px;
+}
+
+@media(min-width: 980px) {
+  body.toolbar {
+  }
+
+  body.toolbar-drawer {
+  }
+}
+
+html.overlay-open .navbar-fixed-top {
+  z-index: 400;
+}
+
+/**
+ * Search form stylings.
+ */
+
+.region-navigation form#search-block-form {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+@media(max-width: 979px) {
+  .region-navigation form#search-block-form {
+    float: none;
+  }
+}
+
+fieldset.search-advanced {
+  padding-bottom: 1.5em;
+  margin-top: 1em;
+}
+
+/* Admin toolbar fix */
+body.admin-expanded.admin-vertical.admin-nw .navbar,
+body.admin-expanded.admin-vertical.admin-sw .navbar {
+  margin-left: 260px;
+}
+
+div#admin-toolbar {
+  z-index: 500;
+}
+
+/* Admin_menu fix */
+#admin-menu {
+  z-index: 1100;
+  position: fixed; 
+}
+
+body.admin-menu .navbar-fixed-top {
+  top: 30px; 
+}
+
+#admin-menu .dropdown li {
+  line-height: normal;
+} 
+
+/* System base fix */
+.container-inline div, .container-inline label {
+  display: block;
+}
+
+/* Default form fields to auto */
+input, textarea, select, .uneditable-input {
+  width:auto;
+}
+
+/* Default textfield styles inside vertical tabs */
+.vertical-tabs .form-type-textfield input {
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  width: auto;
+}
+
+/* Vertical tabs form elements alighment */
+.vertical-tabs .form-item{
+  margin: 1em 0;
+}
+
+/* Collapsible field groups fix */
+html.js fieldset.collapsed {
+ height: auto;
+}
+
+/* throbber fix */
+html.js input.form-autocomplete {
+  background-position: 100% 8px; /* LTR */
+  background-repeat: no-repeat;
+}
+
+html.js input.throbbing {
+  background-position: 100% -13px; /* LTR */
+}
+
+.navbar-search .control-group {
+  margin-bottom:0px;
+}
+
+input.error {
+  color: #B94A48;
+  border-color: #B94A48;
+}
+
+/**
+ * Password strength indicator.
+ */
+.password-strength {
+  width: 17em;
+  float: right;  /* LTR */
+  margin-top: 1.4em;
+}
+
+.password-strength-title {
+  display: inline;
+}
+
+.password-strength-text {
+  float: right; /* LTR */
+  font-weight: bold;
+}
+
+.password-indicator {
+  background-color: #C4C4C4;
+  height: 0.3em;
+  width: 100%;
+}
+
+.password-indicator div {
+  height: 100%;
+  width: 0%;
+  background-color: #47C965;
+}
+
+input.password-confirm,
+input.password-field {
+  width: 16em;
+  margin-bottom: 0.4em;
+}
+
+div.password-confirm {
+  float: right;  /* LTR */
+  margin-top: 1.5em;
+  visibility: hidden;
+  width: 17em;
+}
+
+div.form-item div.password-suggestions {
+  padding: 0.2em 0.5em;
+  margin: 0.7em 0;
+  width: 38.5em;
+  border: 1px solid #B4B4B4;
+}
+
+div.password-suggestions ul {
+  margin-bottom: 0;
+}
+
+.confirm-parent,
+.password-parent {
+  clear: left; /* LTR */
+  margin: 0;
+  width: 36.3em;
+}
+/* added an extra clear both in the situation the form actions is preceded by an badly wrapped float element and they overlap
+e.g. multipage*/
+
+.form-actions{
+  clear: both;
+}
